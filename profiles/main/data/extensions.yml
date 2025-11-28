@@ -1,8 +1,4 @@
-disabled:
-  - id: DavidLGoldberg.jumpy2
-    uuid: b199d60e-2c65-4f9c-807a-5dc7fa9de504
-  - id: littleCareless.dish-ai-commit
-    uuid: 00000000-0000-0000-0000-000000000000
+disabled: []
 enabled:
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
@@ -27,19 +23,19 @@ enabled:
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
   - id: emanuelebartolesi.taskdeck
-    uuid: null
+    uuid: 8ccd949a-bebe-4d52-a51b-8e044318968a
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: jebbs.plantuml
     uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
   - id: jellydn.vscode-settings-cycler
     uuid: 5b02d5df-fefd-465b-b9b5-b58ac383f25d
+  - id: littleCareless.dish-ai-commit
+    uuid: 89097214-c3fc-421c-af41-1b3ef1e8cb66
   - id: ms-azuretools.vscode-containers
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
-  - id: nonoroazoro.syncing
-    uuid: e7db78ad-ac9f-4919-99bb-3627e07b6d1f
   - id: oven.bun-vscode
     uuid: 2c58c6a8-c23c-4913-899e-17c90b15274e
   - id: OxideOps.vscode-code-jump
@@ -49,7 +45,7 @@ enabled:
   - id: PKief.material-icon-theme
     uuid: 5db78037-f674-459f-a236-db622c427c5b
   - id: ScooterSoftware.bcompare-vscode
-    uuid: null
+    uuid: ee6f8a8d-2194-430a-bb92-b6b0d4d60a2b
   - id: sst-dev.opencode
     uuid: 90e5fe3f-5625-4338-82e4-0ca57e7d0af9
   - id: tamasfe.even-better-toml
