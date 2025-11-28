@@ -30,8 +30,6 @@ enabled:
     uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
   - id: jellydn.vscode-settings-cycler
     uuid: 5b02d5df-fefd-465b-b9b5-b58ac383f25d
-  - id: littleCareless.dish-ai-commit
-    uuid: 89097214-c3fc-421c-af41-1b3ef1e8cb66
   - id: ms-azuretools.vscode-containers
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
