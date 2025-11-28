@@ -31,14 +31,30 @@ jebbs.plantuml: '{"version":"2.18.1"}'
 ms-azuretools.vscode-containers: '{"containers.settings.migrated":true,"vscode-containers.container.newContainerUser":false}'
 oven.bun-vscode: '{"BUN_INSPECT_CONNECT_TO":{"type":"unix","url":"unix:///tmp/hfrgbu4ww59.sock"}}'
 PKief.material-icon-theme: '{"config":{"version":"5.29.0","config":{"folders":{"theme":"specific","color":"#90a4ae","associations":{},"customClones":[]},"rootFolders":{"color":"#90a4ae","associations":{}},"activeIconPack":"angular","hidesExplorerArrows":false,"opacity":1,"saturation":1,"files":{"color":"#90a4ae","associations":{},"customClones":[]},"languages":{"associations":{},"customClones":[]},"enableLogging":false,"logLevel":"info"}}}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.chat.sessions","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.package-version-explorer","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.project-manager","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.claude-sidebar","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.gitlensInspect","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.gitlensPatch","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.taskdeck","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.containersView","pinned":true,"visible":false,"order":17}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.chat.sessions","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.package-version-explorer","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.project-manager","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.claude-sidebar","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.taskdeck","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.containersView","pinned":true,"visible":false,"order":17}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
-  in\":true,\"views\":[{},{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\
-  \"npm:showScriptExplorer\"}]},{\"id\":\"workbench.view.search\",\"themeIcon\"\
-  :{\"id\":\"search-view-icon\"},\"name\":\"Search\",\"isBuiltin\":true,\"views\
-  \":[{}]},{\"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-contro\
-  l-view-icon\"},\"name\":\"Source
+  in\":true,\"views\":[{},{},{},{\"when\":\"!gitlens:disabled\"},{\"when\":\"co\
+  nfig.gitlens.cloudPatches.enabled && gitlens:views:patchDetails:mode &&
+  !gitlens:untrusted\"},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"!conf\
+  ig.gitlens.views.scm.grouped.views.launchpad &&
+  !gitlens:views:scm:grouped:views:launchpad\"},{\"when\":\"gitlens:views:pullR\
+  equest:visible &&
+  !gitlens:disabled\"},{\"when\":\"config.gitlens.cloudPatches.enabled &&
+  gitlens:gk:organization:drafts:enabled && !gitlens:hasVirtualFolders &&
+  !gitlens:untrusted\"},{\"when\":\"!gitlens:disabled &&
+  !gitlens:hasVirtualFolders\"},{\"when\":\"!gitlens:hasVirtualFolders &&
+  !gitlens:untrusted\"},{\"when\":\"!config.gitlens.views.scm.grouped.views.fil\
+  eHistory && !gitlens:disabled &&
+  !gitlens:views:scm:grouped:views:fileHistory\"},{\"when\":\"!gitlens:disabled
+  &&
+  !gitlens:plus:disabled\"},{\"when\":\"!config.gitlens.views.scm.grouped.views\
+  .searchAndCompare && !gitlens:disabled &&
+  !gitlens:views:scm:grouped:views:searchAndCompare\"},{\"when\":\"npm:showScri\
+  ptExplorer\"}]},{\"id\":\"workbench.view.search\",\"themeIcon\":{\"id\":\"sea\
+  rch-view-icon\"},\"name\":\"Search\",\"isBuiltin\":true,\"views\":[{}]},{\"id\
+  \":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-control-view-icon\"},\
+  \"name\":\"Source
   Control\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
   scm.providerCount != '0'\"},{},{\"when\":\"scm.historyProviderCount &&
   scm.historyProviderCount !=
@@ -168,35 +184,12 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \":\"%%EXTENSION_DATA_PATH%%/anthropic.claude-code-2.0.55-linux-x64/resources\
   /claude-logo.svg\",\"scheme\":\"file\"},\"name\":\"Claude\",\"isBuiltin\":fal\
   se,\"views\":[{\"when\":\"claude-code:sidebarVisible\"}]},{\"id\":\"workbench\
-  .view.extension.gitlens\",\"themeIcon\":{\"id\":\"gitlens-gitlens\"},\"name\":\
-  \"GitLens\",\"isBuiltin\":false,\"views\":[{},{\"when\":\"!config.gitlens.vie\
-  ws.scm.grouped.views.launchpad &&
-  !gitlens:views:scm:grouped:views:launchpad\"},{\"when\":\"config.gitlens.clou\
-  dPatches.enabled && gitlens:gk:organization:drafts:enabled &&
-  !gitlens:hasVirtualFolders &&
-  !gitlens:untrusted\"},{\"when\":\"!gitlens:hasVirtualFolders &&
-  !gitlens:untrusted\"}]},{\"id\":\"workbench.view.extension.gitlensInspect\",\
-  \"themeIcon\":{\"id\":\"gitlens-gitlens-inspect\"},\"name\":\"GitLens
-  Inspect\",\"isBuiltin\":false,\"views\":[{\"when\":\"!gitlens:disabled\"},{\"\
-  when\":\"gitlens:views:pullRequest:visible &&
-  !gitlens:disabled\"},{\"when\":\"!gitlens:disabled &&
-  !gitlens:hasVirtualFolders\"},{\"when\":\"!config.gitlens.views.scm.grouped.v\
-  iews.fileHistory && !gitlens:disabled &&
-  !gitlens:views:scm:grouped:views:fileHistory\"},{\"when\":\"!gitlens:disabled
-  &&
-  !gitlens:plus:disabled\"},{\"when\":\"!config.gitlens.views.scm.grouped.views\
-  .searchAndCompare && !gitlens:disabled &&
-  !gitlens:views:scm:grouped:views:searchAndCompare\"}]},{\"id\":\"workbench.vi\
-  ew.extension.gitlensPatch\",\"themeIcon\":{\"id\":\"gitlens-cloud-patch\"},\"\
-  name\":\"GitLens
-  Patch\",\"isBuiltin\":false,\"views\":[{\"when\":\"config.gitlens.cloudPatche\
-  s.enabled && gitlens:views:patchDetails:mode &&
-  !gitlens:untrusted\"}]},{\"id\":\"workbench.view.extension.taskdeck\",\"theme\
-  Icon\":{\"id\":\"list-tree\"},\"name\":\"TaskDeck\",\"isBuiltin\":false,\"vie\
-  ws\":[{}]},{\"id\":\"workbench.view.extension.containersView\",\"iconUrl\":{\
-  \"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-azuretools.vscode-containers\
-  -2.3.0-universal/resources/ContainerTools.svg\",\"scheme\":\"file\"},\"name\":\
-  \"Containers\",\"isBuiltin\":false,\"views\":[{},{},{},{},{},{},{}]}]"
+  .view.extension.taskdeck\",\"themeIcon\":{\"id\":\"list-tree\"},\"name\":\"Ta\
+  skDeck\",\"isBuiltin\":false,\"views\":[{}]},{\"id\":\"workbench.view.extensi\
+  on.containersView\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%\
+  %/ms-azuretools.vscode-containers-2.3.0-universal/resources/ContainerTools.svg\
+  \",\"scheme\":\"file\"},\"name\":\"Containers\",\"isBuiltin\":false,\"views\"\
+  :[{},{},{},{},{},{},{}]}]"
 workbench.activityBar.location: default
 workbench.auxiliaryBar.empty: "false"
 workbench.auxiliaryBar.lastNonMaximizedSize: "300"
@@ -220,7 +213,7 @@ workbench.auxiliarybar.placeholderPanels: "[{\"id\":\"workbench.panel.chat\",\"\
   and Debug\",\"isBuiltin\":false}]"
 workbench.auxiliaryBar.size: "300"
 workbench.editor.languageDetectionOpenedLanguages.global: '[["json",true],["properties",true],["ignore",true],["shellscript",true],["dotenv",true],["dockercompose",true],["toml",true],["markdown",true],["typescript",true],["jsonc",true],["plaintext",true],["yaml",true]]'
-workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":false},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"vscode-containers.views.containers","isHidden":false},{"id":"vscode-containers.views.images","isHidden":false},{"id":"vscode-containers.views.registries","isHidden":false},{"id":"vscode-containers.views.networks","isHidden":false},{"id":"vscode-containers.views.volumes","isHidden":false},{"id":"vscode-containers.views.dockerContexts","isHidden":false},{"id":"vscode-containers.views.help","isHidden":false},{"id":"taskOutline","isHidden":false},{"id":"packageDependencies","isHidden":false},{"id":"securityReportView","isHidden":false},{"id":"fileInfoView","isHidden":false},{"id":"dish-ai-commit.settingsView","isHidden":false}]'
+workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":false},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"vscode-containers.views.containers","isHidden":false},{"id":"vscode-containers.views.images","isHidden":false},{"id":"vscode-containers.views.registries","isHidden":false},{"id":"vscode-containers.views.networks","isHidden":false},{"id":"vscode-containers.views.volumes","isHidden":false},{"id":"vscode-containers.views.dockerContexts","isHidden":false},{"id":"vscode-containers.views.help","isHidden":false},{"id":"taskOutline","isHidden":false},{"id":"packageDependencies","isHidden":false},{"id":"securityReportView","isHidden":false},{"id":"fileInfoView","isHidden":false},{"id":"dish-ai-commit.settingsView","isHidden":false},{"id":"gitlens.views.home","isHidden":false},{"id":"gitlens.views.launchpad","isHidden":false},{"id":"gitlens.views.drafts","isHidden":false},{"id":"gitlens.views.workspaces","isHidden":false},{"id":"gitlens.views.commitDetails","isHidden":false},{"id":"gitlens.views.pullRequest","isHidden":false},{"id":"gitlens.views.lineHistory","isHidden":false},{"id":"gitlens.views.fileHistory","isHidden":false},{"id":"gitlens.views.timeline","isHidden":false},{"id":"gitlens.views.searchAndCompare","isHidden":false},{"id":"gitlens.views.patchDetails","isHidden":false},{"id":"gitlens.views.graph","isHidden":false},{"id":"gitlens.views.graphDetails","isHidden":false}]'
 workbench.panel.alignment: center
 workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
 workbench.panel.lastNonMaximizedHeight: "300"
