@@ -4,8 +4,6 @@ enabled:
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: Abdullah-Dev.pkg-version
     uuid: 60b3935b-d661-4088-9c82-8f646f49879c
-  - id: alefragnani.project-manager
-    uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
   - id: antfu.browse-lite
     uuid: 61ce9ab3-f230-47ea-8cdc-2b5eb25f3ae2
   - id: antfu.vite
