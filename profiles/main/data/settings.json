@@ -78,5 +78,6 @@
   "workbench.list.openMode": "doubleClick",
   "workbench.startupEditor": "none",
   "explorer.excludeGitIgnore": false,
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "claudeCode.preferredLocation": "panel"
 }
