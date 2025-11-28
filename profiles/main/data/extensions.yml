@@ -1,0 +1,68 @@
+disabled:
+  - id: DavidLGoldberg.jumpy2
+    uuid: b199d60e-2c65-4f9c-807a-5dc7fa9de504
+  - id: littleCareless.dish-ai-commit
+    uuid: 00000000-0000-0000-0000-000000000000
+enabled:
+  - id: aaron-bond.better-comments
+    uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
+  - id: Abdullah-Dev.pkg-version
+    uuid: 60b3935b-d661-4088-9c82-8f646f49879c
+  - id: alefragnani.project-manager
+    uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
+  - id: antfu.browse-lite
+    uuid: 61ce9ab3-f230-47ea-8cdc-2b5eb25f3ae2
+  - id: antfu.vite
+    uuid: b22eea9f-5a30-43a2-8a59-3d3707869cf8
+  - id: Anthropic.claude-code
+    uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
+  - id: christian-kohler.path-intellisense
+    uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
+  - id: Continue.continue
+    uuid: c8d442ab-9ee3-4891-a5b0-994f14f54c94
+  - id: dbaeumer.vscode-eslint
+    uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
+  - id: EditorConfig.EditorConfig
+    uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
+  - id: emanuelebartolesi.taskdeck
+    uuid: null
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
+  - id: jebbs.plantuml
+    uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
+  - id: jellydn.vscode-settings-cycler
+    uuid: 5b02d5df-fefd-465b-b9b5-b58ac383f25d
+  - id: ms-azuretools.vscode-containers
+    uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
+  - id: ms-azuretools.vscode-docker
+    uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
+  - id: nonoroazoro.syncing
+    uuid: e7db78ad-ac9f-4919-99bb-3627e07b6d1f
+  - id: oven.bun-vscode
+    uuid: 2c58c6a8-c23c-4913-899e-17c90b15274e
+  - id: OxideOps.vscode-code-jump
+    uuid: 5726cc2c-b133-44ac-9ea0-0e8fe3b61073
+  - id: pflannery.vscode-versionlens
+    uuid: 07fc4a0a-11fc-4121-ba9a-f0d534c729d8
+  - id: PKief.material-icon-theme
+    uuid: 5db78037-f674-459f-a236-db622c427c5b
+  - id: ScooterSoftware.bcompare-vscode
+    uuid: null
+  - id: sst-dev.opencode
+    uuid: 90e5fe3f-5625-4338-82e4-0ca57e7d0af9
+  - id: tamasfe.even-better-toml
+    uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
+  - id: tockn.darcula-port
+    uuid: 1d6647b5-44bd-47e0-bb84-4870d872c45c
+  - id: usernamehw.errorlens
+    uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
+  - id: vitest.explorer
+    uuid: ab3534a7-eaae-4f75-9735-62bfd758b220
+  - id: VizzleTF.geminicommit
+    uuid: 56c7e8ae-db1a-4088-af51-19d0e65df459
+  - id: YoavBls.pretty-ts-errors
+    uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
+  - id: zokugun.cron-tasks
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

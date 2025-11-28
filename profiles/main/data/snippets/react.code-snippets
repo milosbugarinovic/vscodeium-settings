@@ -1,0 +1,86 @@
+{
+  "React ForwardRef Component": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "frfn",
+    "body": [
+      "import React, { Ref, forwardRef, useImperativeHandle } from 'react'",
+      "",
+      "export type ${1:ScreenName}RefObject = {",
+      "  something: () => void",
+      "}",
+      "",
+      "export const ${1:ScreenName} = forwardRef((props: { onSomething?: () => void }, ref: Ref<${1:ScreenName}RefObject>): React.ReactElement => {",
+      "  const { onSomething } = props",
+      "",
+      "  useImperativeHandle(ref, () => ({",
+      "    something: handleSomething,",
+      "  }))",
+      "",
+      "  const handleSomething = (): void => {}",
+      "",
+      "  return <>",
+      "    ${0}",
+      "  </>",
+      "})"
+    ],
+    "description": "React forwardRef component with handle"
+  },
+
+  "React Arrow Function (Typed)": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "rafn",
+    "body": [
+      "(${1:params}): ${2:returnType} => {",
+      "    ${0}",
+      "}"
+    ],
+    "description": "React typed arrow function"
+  },
+
+  "React Function Component": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "rfn",
+    "body": [
+      "import React from 'react'",
+      "",
+      "export const ${1:ScreenName} = (): React.ReactElement => {",
+      "",
+      "  return <>",
+      "    ${0}",
+      "  </>",
+      "}"
+    ],
+    "description": "Basic React function component"
+  },
+
+  "React Function Component (No Curly Return)": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "rfnn",
+    "body": [
+      "import React from 'react'",
+      "",
+      "export const ${1:ScreenName} = (): React.ReactElement => (",
+      "  <>",
+      "    ${0}",
+      "  </>",
+      ")"
+    ],
+    "description": "React function component with implicit return"
+  },
+
+  "React Hook Template": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "rhook",
+    "body": [
+      "import React from 'react'",
+      "",
+      "export const ${1:useHookName} = (props: { someProp: string }): { someAction: () => void } => {",
+      "  const { someProp } = props",
+      "  const someAction = (): void => {}",
+      "  ${0}",
+      "  return { someAction }",
+      "}"
+    ],
+    "description": "Custom React hook template"
+  }
+}

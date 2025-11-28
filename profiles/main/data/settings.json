@@ -1,0 +1,82 @@
+{
+  "commitSage.commit.customInstructions": "Generate a Git commit message following the conventional commit format. Use one of the types: `chore`, `feat`, `fix`, `refactor`, `test`, `docs`, `style`. The **first line must be short** and summarize the main change. If there are additional details that cannot fit in one line, include a **body** with a short explanation of the other changes. Example:\n\n```\nfeat: add user login\n\nAdded Google OAuth support and updated login page UI.\n```\n\nDo not include anything outside the commit message.",
+  "commitSage.commit.useCustomInstructions": true,
+  "commitSage.ollama.baseUrl": "http://ai-box.lan:11434",
+  "commitSage.ollama.model": "qwen3-coder:30b",
+  "commitSage.provider.type": "ollama",
+  "commitSage.telemetry.enabled": false,
+  "containers.containers.label": "ContainerName",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.test.ts",
+    "*.tsx": "${capture}.ts, ${capture}.test.tsx"
+  },
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "pkgVersion.excludeFolders": [
+    "**/node_modules/**",
+    "**/vendor/**/vendor/**",
+    "**/venv/**",
+    "**/.git/**",
+    "**/build/**",
+    "**/.dart_tool/**",
+    "**/dist/**",
+    "**/.next/**",
+    "**/.nuxt/**",
+    "**/bin/**",
+    "**/__pycache__/**",
+    "**/*.lock",
+    "**/yarn-error.log",
+    "**/package-lock.json",
+    "**/npm-debug.log",
+    "**/composer.lock",
+    "**/Gemfile.lock",
+    "**/Cargo.lock",
+    "**/*.bak",
+    "**/*.backup"
+  ],
+  "settings.cycle": [
+    {
+      "id": "toggleGitignoreFiles",
+      "overrideWorkspaceSettings": true,
+      "values": [
+        {
+          "explorer.excludeGitIgnore": true
+        },
+        {
+          "explorer.excludeGitIgnore": false
+        }
+      ]
+    },
+    {
+      "id": "toggleDotfiles",
+      "overrideWorkspaceSettings": true,
+      "values": [
+        {
+          "files.exclude": {
+            "**/.*": true,
+            "**/.DS_Store": true,
+            "**/.git": true,
+            "**/.pnpm-store": true,
+            "**/dist": true,
+            "**/node_modules": true
+          }
+        },
+        {
+          "files.exclude": {
+            "**/.DS_Store": true,
+            "**/.git": true,
+            "**/.pnpm-store": true,
+            "**/dist": true,
+            "**/node_modules": true
+          }
+        }
+      ]
+    }
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.openMode": "doubleClick",
+  "workbench.startupEditor": "none",
+  "explorer.excludeGitIgnore": false,
+  "diffEditor.ignoreTrimWhitespace": false
+}

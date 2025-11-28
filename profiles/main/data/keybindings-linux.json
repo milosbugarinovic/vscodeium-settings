@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaults
+[
+   {
+      "command": "continue.focusContinueInputWithoutClear",
+      "key": "ctrl+shift+alt+k shift"
+   },
+   {
+      "command": "-continue.focusContinueInputWithoutClear",
+      "key": "ctrl+shift+l"
+   },
+   {
+      "command": "continue.focusContinueInput",
+      "key": "ctrl+shift+u"
+   },
+   {
+      "command": "-continue.focusContinueInput",
+      "key": "ctrl+l"
+   },
+   {
+      "command": "settings.cycle.toggleDotfiles",
+      "key": "ctrl+alt+h"
+   },
+   {
+      "command": "settings.cycle.toggleGitignoreFiles",
+      "key": "ctrl+alt+shift+h"
+   }
+]

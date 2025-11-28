@@ -1,0 +1,105 @@
+{
+	"Async Arrow Function": {
+		"scope": "javascript,typescript",
+		"prefix": "aafn",
+		"body": [
+			"async (${1:params}): Promise<${2:returnType}> => {",
+			"    ${0}",
+			"},"
+		],
+		"description": "Async arrow function with return type"
+	},
+
+	"Arrow Function": {
+		"scope": "javascript,typescript",
+		"prefix": "afn",
+		"body": [
+			"(${1:params}): ${2:returnType} => {",
+			"    ${0}",
+			"}"
+		],
+		"description": "Arrow function with return type"
+	},
+
+	"Destructure Const from Variable": {
+		"scope": "javascript,typescript",
+		"prefix": "cdest",
+		"body": [
+			"const { ${1:dest} } = ${2:variable}",
+			"${0}"
+		],
+		"description": "Destructure constant from variable"
+	},
+
+	"Console Log": {
+		"scope": "javascript,typescript",
+		"prefix": "clog",
+		"body": [
+			"console.log('${1:text}')${0} // eslint-disable-line no-console"
+		],
+		"description": "Console log with eslint disable"
+	},
+
+	"Mock Function": {
+		"scope": "javascript,typescript",
+		"prefix": "cmok",
+		"body": [
+			"mock: (): ContractMockRevertFns => {",
+			"    return [mocker.contract(${0})]",
+			"},"
+		],
+		"description": "Mock function returning contract"
+	},
+
+	"Describe Block": {
+		"scope": "javascript,typescript",
+		"prefix": "descr",
+		"body": [
+			"describe('${1:description}', () => {",
+			"    ${0}",
+			"})"
+		],
+		"description": "Jest describe block"
+	},
+
+	"Import Statement": {
+		"scope": "javascript,typescript",
+		"prefix": "imp",
+		"body": [
+			"import { ${0} } from '${1:module}'"
+		],
+		"description": "Import statement"
+	},
+
+	"Destructure Const from Params": {
+		"scope": "javascript,typescript",
+		"prefix": "pdest",
+		"body": [
+                        "const { ${1:dest} } = ${2|params,props|}",
+			"${0}"
+		],
+		"description": "Destructure constant from params"
+	},
+
+	"Service Export": {
+		"scope": "javascript,typescript",
+		"prefix": "ser",
+		"body": [
+			"export const ${1:serviceName} = {",
+			"    ${0}",
+			"}"
+		],
+		"description": "Export service object"
+	},
+
+	"Throw Error If Missing": {
+		"scope": "javascript,typescript",
+		"prefix": "thr",
+		"body": [
+			"if (!${1:entity}) {",
+			"    throw new Error('${2:entityString} not found')",
+			"}"
+		],
+		"description": "Throw error if entity is missing"
+	}
+}
