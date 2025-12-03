@@ -1,4 +1,8 @@
-disabled: []
+disabled:
+  - id: DavidLGoldberg.jumpy2
+    uuid: b199d60e-2c65-4f9c-807a-5dc7fa9de504
+  - id: littleCareless.dish-ai-commit
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
@@ -28,8 +32,6 @@ enabled:
     uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
   - id: jellydn.vscode-settings-cycler
     uuid: 5b02d5df-fefd-465b-b9b5-b58ac383f25d
-  - id: littleCareless.dish-ai-commit
-    uuid: 89097214-c3fc-421c-af41-1b3ef1e8cb66
   - id: mhutchie.git-graph
     uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
   - id: ms-azuretools.vscode-containers
