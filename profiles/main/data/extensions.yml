@@ -4,6 +4,8 @@ disabled:
   - id: littleCareless.dish-ai-commit
     uuid: 00000000-0000-0000-0000-000000000000
 enabled:
+  - id: 3timeslazy.vscodium-devpodcontainers
+    uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: Abdullah-Dev.pkg-version
@@ -28,6 +30,8 @@ enabled:
     uuid: 8ccd949a-bebe-4d52-a51b-8e044318968a
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
+  - id: jeanp413.open-remote-ssh
+    uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
   - id: jebbs.plantuml
     uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
   - id: jellydn.vscode-settings-cycler
@@ -38,8 +42,6 @@ enabled:
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
-  - id: ms-vscode-remote.remote-containers
-    uuid: 93ce222b-5f6f-49b7-9ab1-a0463c6238df
   - id: oven.bun-vscode
     uuid: 2c58c6a8-c23c-4913-899e-17c90b15274e
   - id: OxideOps.vscode-code-jump
