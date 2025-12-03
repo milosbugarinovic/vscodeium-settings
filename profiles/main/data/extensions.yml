@@ -1,15 +1,9 @@
-disabled:
-  - id: Abdullah-Dev.pkg-version
-    uuid: 00000000-0000-0000-0000-000000000000
-  - id: Continue.continue
-    uuid: 00000000-0000-0000-0000-000000000000
-  - id: EditorConfig.EditorConfig
-    uuid: 00000000-0000-0000-0000-000000000000
-  - id: YoavBls.pretty-ts-errors
-    uuid: 00000000-0000-0000-0000-000000000000
+disabled: []
 enabled:
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
+  - id: Abdullah-Dev.pkg-version
+    uuid: 60b3935b-d661-4088-9c82-8f646f49879c
   - id: antfu.browse-lite
     uuid: 61ce9ab3-f230-47ea-8cdc-2b5eb25f3ae2
   - id: antfu.vite
@@ -18,10 +12,14 @@ enabled:
     uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
   - id: christian-kohler.path-intellisense
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
+  - id: Continue.continue
+    uuid: c8d442ab-9ee3-4891-a5b0-994f14f54c94
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: eamodio.gitlens
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
+  - id: EditorConfig.EditorConfig
+    uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
   - id: emanuelebartolesi.taskdeck
     uuid: 8ccd949a-bebe-4d52-a51b-8e044318968a
   - id: esbenp.prettier-vscode
@@ -62,5 +60,7 @@ enabled:
     uuid: 56c7e8ae-db1a-4088-af51-19d0e65df459
   - id: xyz.local-history
     uuid: 25adc849-5c3a-4dca-95b3-55a6461077ee
+  - id: YoavBls.pretty-ts-errors
+    uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
