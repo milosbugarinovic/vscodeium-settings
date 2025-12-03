@@ -1,4 +1,8 @@
-disabled: []
+disabled:
+  - id: DavidLGoldberg.jumpy2
+    uuid: b199d60e-2c65-4f9c-807a-5dc7fa9de504
+  - id: littleCareless.dish-ai-commit
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
@@ -28,6 +32,8 @@ enabled:
     uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
   - id: jellydn.vscode-settings-cycler
     uuid: 5b02d5df-fefd-465b-b9b5-b58ac383f25d
+  - id: mhutchie.git-graph
+    uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
   - id: ms-azuretools.vscode-containers
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
@@ -54,6 +60,8 @@ enabled:
     uuid: ab3534a7-eaae-4f75-9735-62bfd758b220
   - id: VizzleTF.geminicommit
     uuid: 56c7e8ae-db1a-4088-af51-19d0e65df459
+  - id: xyz.local-history
+    uuid: 25adc849-5c3a-4dca-95b3-55a6461077ee
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: zokugun.cron-tasks

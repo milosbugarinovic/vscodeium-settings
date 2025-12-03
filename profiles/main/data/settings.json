@@ -80,11 +80,6 @@
   "explorer.excludeGitIgnore": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "claudeCode.preferredLocation": "panel",
-  "terminal.integrated.profiles.linux": {
-        "nvm-bash": {
-            "path": "bash",
-            "args": ["-i", "-c", "nvm use 2>/dev/null; exec bash -i"]
-        }
-  },
-  "terminal.integrated.defaultProfile.linux": "nvm-bash"
+  "workbench.editor.enablePreview": false,
+  "gitlens.graph.minimap.enabled": false
 }
