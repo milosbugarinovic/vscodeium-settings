@@ -1,0 +1,27 @@
+[
+  {
+    "command": "continue.focusContinueInputWithoutClear",
+    "key": "cmd+shift+alt+k shift"
+  },
+  {
+    "command": "-continue.focusContinueInputWithoutClear",
+    "key": "cmd+shift+l"
+  },
+  {
+    "command": "continue.focusContinueInput",
+    "key": "cmd+shift+u"
+  },
+  {
+    "command": "-continue.focusContinueInput",
+    "key": "cmd+l"
+  },
+  {
+    "command": "settings.cycle.toggleDotfiles",
+    "key": "cmd+alt+h"
+  },
+  {
+    "command": "settings.cycle.toggleGitignoreFiles",
+    "key": "cmd+alt+shift+h"
+  }
+]
+
