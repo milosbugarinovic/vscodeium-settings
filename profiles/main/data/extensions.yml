@@ -1,11 +1,11 @@
 disabled:
+  - id: 3timeslazy.vscodium-devpodcontainers
+    uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
   - id: DavidLGoldberg.jumpy2
     uuid: b199d60e-2c65-4f9c-807a-5dc7fa9de504
   - id: littleCareless.dish-ai-commit
     uuid: 00000000-0000-0000-0000-000000000000
 enabled:
-  - id: 3timeslazy.vscodium-devpodcontainers
-    uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: Abdullah-Dev.pkg-version

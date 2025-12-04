@@ -81,5 +81,6 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "claudeCode.preferredLocation": "panel",
   "workbench.editor.enablePreview": false,
-  "gitlens.graph.minimap.enabled": false
+  "gitlens.graph.minimap.enabled": false,
+  "claudeCode.selectedModel": "default"
 }
