@@ -1,7 +1,7 @@
 disabled:
   - id: 3timeslazy.vscodium-devpodcontainers
     uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
-  - id: GitHub.vscode-pull-request-github
+  - id: ScooterSoftware.bcompare-vscode
     uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: aaron-bond.better-comments
@@ -10,10 +10,6 @@ enabled:
     uuid: 60b3935b-d661-4088-9c82-8f646f49879c
   - id: alefragnani.Bookmarks
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
-  - id: amazonwebservices.aws-toolkit-vscode
-    uuid: ac5787df-9b2d-441c-abf0-977d62bc66f0
-  - id: antfu.browse-lite
-    uuid: 61ce9ab3-f230-47ea-8cdc-2b5eb25f3ae2
   - id: antfu.vite
     uuid: b22eea9f-5a30-43a2-8a59-3d3707869cf8
   - id: Anthropic.claude-code
@@ -24,6 +20,8 @@ enabled:
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
   - id: Continue.continue
     uuid: c8d442ab-9ee3-4891-a5b0-994f14f54c94
+  - id: danielroedl.meld-diff
+    uuid: c09147e9-960c-43eb-b909-905b63102e10
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: detachhead.basedpyright
@@ -32,34 +30,16 @@ enabled:
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
-  - id: emanuelebartolesi.taskdeck
-    uuid: 8ccd949a-bebe-4d52-a51b-8e044318968a
   - id: EricSia.pythonsnippets3
     uuid: 6a6a4cee-4022-4904-81d7-59b3a2e0302a
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
-  - id: fnando.linter
-    uuid: b68a062b-e10e-4690-b8d8-ba174fe2d1a2
-  - id: formulahendry.code-runner
-    uuid: a6a0c5b2-d078-4bf5-a9ee-4e37054414b3
-  - id: github.vscode-github-actions
-    uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
-  - id: hbenl.vscode-test-explorer
-    uuid: ff96f1b4-a4b8-45ef-8ecf-c232c0cb75c8
-  - id: hfloveyy.langgraphv
-    uuid: 478b3e98-b280-4b69-9d40-9556688c5f55
-  - id: hilleer.yaml-plus-json
-    uuid: a5c960d9-3d35-4b3f-9d53-bafe782ddf1a
   - id: jeanp413.open-remote-ssh
     uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
   - id: jebbs.plantuml
     uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
   - id: jellydn.vscode-settings-cycler
     uuid: 5b02d5df-fefd-465b-b9b5-b58ac383f25d
-  - id: littlefoxteam.vscode-python-test-adapter
-    uuid: 912fd5ae-d9f2-4c31-8a0b-d7fb669afbb4
-  - id: me-dutour-mathieu.vscode-github-actions
-    uuid: 8476972c-078a-45ba-8756-b8ce15669cb9
   - id: mechatroner.rainbow-csv
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
   - id: mgesbert.python-path
@@ -78,30 +58,8 @@ enabled:
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-python.vscode-python-envs
     uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
-  - id: ms-toolsai.jupyter
-    uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
-  - id: ms-toolsai.jupyter-keymap
-    uuid: 9f6dc8db-620c-4844-b8c5-e74914f1be27
-  - id: ms-toolsai.jupyter-renderers
-    uuid: b15c72f8-d5fe-421a-a4f7-27ed9f6addbf
-  - id: ms-toolsai.vscode-jupyter-cell-tags
-    uuid: ab4fb32a-befb-4102-adf9-1652d0cd6a5e
-  - id: ms-toolsai.vscode-jupyter-slideshow
-    uuid: e153ca70-b543-4865-b4c5-b31d34185948
-  - id: ms-vscode-remote.remote-containers
-    uuid: 93ce222b-5f6f-49b7-9ab1-a0463c6238df
-  - id: ms-vscode-remote.remote-ssh
-    uuid: 607fd052-be03-4363-b657-2bd62b83d28a
-  - id: ms-vscode-remote.remote-ssh-edit
-    uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
   - id: ms-vscode.makefile-tools
     uuid: e09cf600-90a1-414e-92a0-031f1a5391c6
-  - id: ms-vscode.remote-explorer
-    uuid: 11858313-52cc-4e57-b3e4-d7b65281e34b
-  - id: ms-vscode.test-adapter-converter
-    uuid: 47210ec2-0324-4cbb-9523-9dff02a5f9ec
-  - id: ms-vsliveshare.vsliveshare
-    uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
   - id: njpwerner.autodocstring
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
   - id: oven.bun-vscode
@@ -116,20 +74,12 @@ enabled:
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: SanjulaGanepola.github-local-actions
     uuid: 4a2d7bb5-c18c-468d-8090-606f0568d535
-  - id: ScooterSoftware.bcompare-vscode
-    uuid: ee6f8a8d-2194-430a-bb92-b6b0d4d60a2b
   - id: sst-dev.opencode
     uuid: 90e5fe3f-5625-4338-82e4-0ca57e7d0af9
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
-  - id: tldraw-org.tldraw-vscode
-    uuid: c8132309-be84-4ae3-afa5-c6a8bc824611
   - id: tockn.darcula-port
     uuid: 1d6647b5-44bd-47e0-bb84-4870d872c45c
-  - id: tomoki1207.pdf
-    uuid: 6db08635-0c6a-45ba-9a4b-8c3e192c63c2
-  - id: trueaniki.lines-highlight
-    uuid: 3e5a0229-0d3c-4abd-bb8f-02fccd78c09b
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: vitest.explorer

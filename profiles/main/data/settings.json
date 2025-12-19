@@ -83,7 +83,7 @@
   "workbench.editor.enablePreview": false,
   "gitlens.graph.minimap.enabled": false,
   "claudeCode.selectedModel": "default",
-  "python.languageServer": "Pylance",
+  "python.languageServer": "Jedi",
   "githubLocalActions.dockerDesktopPath": "/Applications/Docker.app",
   "workbench.colorCustomizations": {},
   "codestream.serverUrl": "https://codestream-api-v2-us1.service.newrelic.com",
@@ -113,5 +113,6 @@
     "sound": "off"
   },
   "editor.accessibilitySupport": "on",
-  "accessibility.signalOptions.volume": 0
+  "accessibility.signalOptions.volume": 0,
+  "redhat.telemetry.enabled": false
 }
