@@ -82,5 +82,36 @@
   "claudeCode.preferredLocation": "panel",
   "workbench.editor.enablePreview": false,
   "gitlens.graph.minimap.enabled": false,
-  "claudeCode.selectedModel": "default"
+  "claudeCode.selectedModel": "default",
+  "python.languageServer": "Pylance",
+  "githubLocalActions.dockerDesktopPath": "/Applications/Docker.app",
+  "workbench.colorCustomizations": {},
+  "codestream.serverUrl": "https://codestream-api-v2-us1.service.newrelic.com",
+  "aws.cloudformation.telemetry.enabled": false,
+  "yaml.schemas": {
+    "file:///Users/milos/.vscode-oss/extensions/continue.continue-1.2.11-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  },
+  "aws.telemetry": false,
+  "telemetry.feedback.enabled": false,
+  "continue.telemetryEnabled": false,
+  "gitlens.telemetry.enabled": false,
+  "code-runner.enableAppInsights": false,
+  "[python]": {
+
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "never",
+    "gitlens.codeLens.symbolScopes": [
+      "!Module"
+    ],
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off"
+  },
+  "makefile.configureOnOpen": true,
+  "accessibility.signals.lineHasInlineSuggestion": {
+    "sound": "off"
+  },
+  "editor.accessibilitySupport": "on",
+  "accessibility.signalOptions.volume": 0
 }
