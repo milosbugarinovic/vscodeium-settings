@@ -114,5 +114,9 @@
   },
   "editor.accessibilitySupport": "on",
   "accessibility.signalOptions.volume": 0,
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
+  "gitlens.ai.model": "gitkraken",
+  "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+  "workbench.colorTheme": "Darcula Theme (JetBrains Port)",
+  "git.allowForcePush": true
 }
