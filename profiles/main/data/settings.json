@@ -1,5 +1,5 @@
 {
-  "commitSage.commit.customInstructions": "Generate a Git commit message following the conventional commit format. Use one of the types: `chore`, `feat`, `fix`, `refactor`, `test`, `docs`, `style`. The **first line must be short** and summarize the main change. If there are additional details that cannot fit in one line, include a **body** with a short explanation of the other changes. Example:\n\n```\nfeat: add user login\n\nAdded Google OAuth support and updated login page UI.\n```\n\nDo not include anything outside the commit message.",
+  "commitSage.commit.customInstructions": "# Commit Message Rules\n\n## Commit Message Format\n\n**Format:** `{type}: {description}`\n\nAll commits are validated by CommitLint.\n\n### Required Components\n\n1. **Type** (required) - one of the allowed types below\n2. **Colon and space** - `: ` after the type\n3. **Description** (required) - brief description of the change\n\n### Allowed Types\n\n| Type | Use Case |\n|------|----------|\n| `feat` | New feature |\n| `fix` | Bug fix |\n| `chore` | Maintenance tasks, dependencies |\n| `docs` | Documentation changes |\n| `test` | Adding or updating tests |\n| `ci` | CI/CD changes |\n| `build` | Build system changes |\n| `perf` | Performance improvements |\n| `refactor` | Code refactoring (no feature/fix) |\n| `revert` | Reverting previous commits |\n| `style` | Code style/formatting changes |\n\n### Examples\n\n```\nfeat: add user authentication\nfix: resolve token generation issue\ntest: add user creation tests\nci: update release script\ndocs: update readme\nchore: code cleanup\n```\n\n### Validation\n\nTest your commit message:\n```bash\necho \"your commit message\" | npx commitlint\n```\n\n---\n\n## Quick Reference\n\n```\n✅ feat: add login page\n✅ fix: correct date formatting\n✅ chore: update dependencies\n\n❌ something stupid          (missing type)\n❌ feat add feature          (missing colon)\n❌ fixed bug                 (wrong format)\n```\n",
   "commitSage.commit.useCustomInstructions": true,
   "commitSage.ollama.baseUrl": "http://ai-box.lan:11434",
   "commitSage.ollama.model": "qwen3-coder:30b",
@@ -78,7 +78,6 @@
   "workbench.list.openMode": "doubleClick",
   "workbench.startupEditor": "none",
   "explorer.excludeGitIgnore": false,
-  "diffEditor.ignoreTrimWhitespace": false,
   "claudeCode.preferredLocation": "panel",
   "workbench.editor.enablePreview": false,
   "gitlens.graph.minimap.enabled": false,
@@ -89,7 +88,7 @@
   "codestream.serverUrl": "https://codestream-api-v2-us1.service.newrelic.com",
   "aws.cloudformation.telemetry.enabled": false,
   "yaml.schemas": {
-    "file:///Users/milos/.vscode-oss/extensions/continue.continue-1.2.11-darwin-arm64/config-yaml-schema.json": [
+    "file:///home/milos/.vscode-oss/extensions/continue.continue-1.2.11-linux-x64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
     ]
   },
@@ -99,12 +98,9 @@
   "gitlens.telemetry.enabled": false,
   "code-runner.enableAppInsights": false,
   "[python]": {
-
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.defaultColorDecorators": "never",
-    "gitlens.codeLens.symbolScopes": [
-      "!Module"
-    ],
+    "gitlens.codeLens.symbolScopes": ["!Module"],
     "editor.formatOnType": true,
     "editor.wordBasedSuggestions": "off"
   },

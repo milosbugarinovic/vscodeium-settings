@@ -23,5 +23,9 @@
    {
       "command": "settings.cycle.toggleGitignoreFiles",
       "key": "ctrl+alt+shift+h"
+   },
+   {
+      "key": "ctrl+shift+d",
+      "command": "editor.action.duplicateSelection"
    }
 ]
