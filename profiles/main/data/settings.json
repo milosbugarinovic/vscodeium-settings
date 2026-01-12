@@ -88,7 +88,7 @@
   "codestream.serverUrl": "https://codestream-api-v2-us1.service.newrelic.com",
   "aws.cloudformation.telemetry.enabled": false,
   "yaml.schemas": {
-    "file:///home/milos/.vscode-oss/extensions/continue.continue-1.2.11-linux-x64/config-yaml-schema.json": [
+    "file:///Users/milos/.vscode-oss/extensions/continue.continue-1.2.11-darwin-arm64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
     ]
   },
