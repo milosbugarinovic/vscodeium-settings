@@ -1,31 +1,31 @@
 disabled:
   - id: 3timeslazy.vscodium-devpodcontainers
     uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
-  - id: Abdullah-Dev.pkg-version
-    uuid: 00000000-0000-0000-0000-000000000000
   - id: antfu.vite
     uuid: b22eea9f-5a30-43a2-8a59-3d3707869cf8
   - id: DavidLGoldberg.jumpy2
     uuid: b199d60e-2c65-4f9c-807a-5dc7fa9de504
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: littleCareless.dish-ai-commit
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: oven.bun-vscode
     uuid: 2c58c6a8-c23c-4913-899e-17c90b15274e
   - id: pflannery.vscode-versionlens
     uuid: 07fc4a0a-11fc-4121-ba9a-f0d534c729d8
-  - id: ScooterSoftware.bcompare-vscode
-    uuid: 00000000-0000-0000-0000-000000000000
   - id: vitest.explorer
     uuid: ab3534a7-eaae-4f75-9735-62bfd758b220
-  - id: YoavBls.pretty-ts-errors
-    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
+  - id: Abdullah-Dev.pkg-version
+    uuid: 60b3935b-d661-4088-9c82-8f646f49879c
   - id: alefragnani.Bookmarks
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
   - id: Anthropic.claude-code
     uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
+  - id: batyan-soft.fast-tasks
+    uuid: 1a1946e3-0102-4a1d-90f2-e51872fa3bc3
   - id: charliermarsh.ruff
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
   - id: christian-kohler.path-intellisense
@@ -90,6 +90,8 @@ enabled:
     uuid: 56c7e8ae-db1a-4088-af51-19d0e65df459
   - id: xyz.local-history
     uuid: 25adc849-5c3a-4dca-95b3-55a6461077ee
+  - id: YoavBls.pretty-ts-errors
+    uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
