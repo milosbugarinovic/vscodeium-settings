@@ -1,6 +1,4 @@
 disabled:
-  - id: 3timeslazy.vscodium-devpodcontainers
-    uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
   - id: antfu.vite
     uuid: b22eea9f-5a30-43a2-8a59-3d3707869cf8
   - id: DavidLGoldberg.jumpy2
@@ -13,9 +11,9 @@ disabled:
     uuid: 2c58c6a8-c23c-4913-899e-17c90b15274e
   - id: pflannery.vscode-versionlens
     uuid: 07fc4a0a-11fc-4121-ba9a-f0d534c729d8
-  - id: vitest.explorer
-    uuid: ab3534a7-eaae-4f75-9735-62bfd758b220
 enabled:
+  - id: 3timeslazy.vscodium-devpodcontainers
+    uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: Abdullah-Dev.pkg-version
@@ -28,12 +26,8 @@ enabled:
     uuid: 1a1946e3-0102-4a1d-90f2-e51872fa3bc3
   - id: charliermarsh.ruff
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
-  - id: christian-kohler.path-intellisense
-    uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
   - id: Continue.continue
     uuid: c8d442ab-9ee3-4891-a5b0-994f14f54c94
-  - id: danielroedl.meld-diff
-    uuid: c09147e9-960c-43eb-b909-905b63102e10
   - id: detachhead.basedpyright
     uuid: 249aa903-c0c5-4eb3-9deb-06895c663b8b
   - id: EditorConfig.EditorConfig
@@ -42,6 +36,10 @@ enabled:
     uuid: 6a6a4cee-4022-4904-81d7-59b3a2e0302a
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
+  - id: formulahendry.auto-close-tag
+    uuid: d3836729-9cc1-42c1-b2af-d50071f57d29
+  - id: formulahendry.auto-rename-tag
+    uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
   - id: jeanp413.open-remote-ssh
     uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
   - id: jebbs.plantuml
@@ -54,6 +52,10 @@ enabled:
     uuid: 963e502d-de59-484a-9db5-c1e02f00fc4c
   - id: mhutchie.git-graph
     uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
+  - id: mikestead.dotenv
+    uuid: 532533c9-a894-4a58-9eee-bbfbe7c06f71
+  - id: moshfeu.diff-merge
+    uuid: 68b929c5-4adb-451b-9ce0-d2797f56b925
   - id: ms-azuretools.vscode-containers
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
@@ -70,6 +72,8 @@ enabled:
     uuid: e09cf600-90a1-414e-92a0-031f1a5391c6
   - id: njpwerner.autodocstring
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
+  - id: oderwat.indent-rainbow
+    uuid: eaa2127d-cb69-4ab9-8505-a60c9ee5f28b
   - id: OxideOps.vscode-code-jump
     uuid: 5726cc2c-b133-44ac-9ea0-0e8fe3b61073
   - id: PKief.material-icon-theme
@@ -80,12 +84,16 @@ enabled:
     uuid: 4a2d7bb5-c18c-468d-8090-606f0568d535
   - id: sst-dev.opencode
     uuid: 90e5fe3f-5625-4338-82e4-0ca57e7d0af9
+  - id: streetsidesoftware.code-spell-checker
+    uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: tockn.darcula-port
     uuid: 1d6647b5-44bd-47e0-bb84-4870d872c45c
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
+  - id: vitest.explorer
+    uuid: ab3534a7-eaae-4f75-9735-62bfd758b220
   - id: VizzleTF.geminicommit
     uuid: 56c7e8ae-db1a-4088-af51-19d0e65df459
   - id: xyz.local-history

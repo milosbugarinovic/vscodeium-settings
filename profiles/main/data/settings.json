@@ -1,15 +1,14 @@
 {
-  "commitSage.commit.customInstructions": "# Commit Message Rules\n\n## Commit Message Format\n\n**Format:** `{type}: {description}`\n\nAll commits are validated by CommitLint.\n\n### Required Components\n\n1. **Type** (required) - one of the allowed types below\n2. **Colon and space** - `: ` after the type\n3. **Description** (required) - brief description of the change\n\n### Allowed Types\n\n| Type | Use Case |\n|------|----------|\n| `feat` | New feature |\n| `fix` | Bug fix |\n| `chore` | Maintenance tasks, dependencies |\n| `docs` | Documentation changes |\n| `test` | Adding or updating tests |\n| `ci` | CI/CD changes |\n| `build` | Build system changes |\n| `perf` | Performance improvements |\n| `refactor` | Code refactoring (no feature/fix) |\n| `revert` | Reverting previous commits |\n| `style` | Code style/formatting changes |\n\n### Examples\n\n```\nfeat: add user authentication\nfix: resolve token generation issue\ntest: add user creation tests\nci: update release script\ndocs: update readme\nchore: code cleanup\n```\n\n### Validation\n\nTest your commit message:\n```bash\necho \"your commit message\" | npx commitlint\n```\n\n---\n\n## Quick Reference\n\n```\n✅ feat: add login page\n✅ fix: correct date formatting\n✅ chore: update dependencies\n\n❌ something stupid          (missing type)\n❌ feat add feature          (missing colon)\n❌ fixed bug                 (wrong format)\n```\n",
+  "commitSage.commit.customInstructions": "# Commit Message Rules\n\nGenerate commit messages in conventional commit format. NEVER generate plain descriptive sentences.\n\n## Required Format\n```\n{type}: {description}\n\n{body}\n```\n\n**You MUST start every commit message with a type from the allowed list, followed by a colon and space.**\n\n## Allowed Types\n\nUse ONLY these types:\n\n- feat — new feature\n- fix — bug fix\n- chore — maintenance tasks\n- docs — documentation only\n- test — adding or updating tests\n- ci — CI/CD changes\n- build — build system or dependencies\n- perf — performance improvement\n- refactor — code change that neither fixes nor adds\n- revert — reverting previous commit\n- style — code formatting (whitespace, semicolons), not CSS\n\n## Subject Line Rules\n\n- MUST start with type and colon: `feat: `, `fix: `, `chore: `\n- Use lowercase throughout\n- Use imperative mood: \"add\" not \"added\" or \"adding\"\n- Keep under 50 characters\n- Do not end with a period\n- Summarize the primary change only\n\n## Body (Optional)\n\n- Separate from subject with a blank line\n- Use when multiple changes need explanation\n- List secondary changes here, not in subject\n- For breaking changes: add `!` after type and include `BREAKING CHANGE:` in body\n\n## Examples\n\n<example>\n<input>Added login page and fixed header bug</input>\n<output>\nfeat: add login page\n\nAlso fixes header alignment bug.\n</output>\n</example>\n\n<example>\n<input>Remove old Dockerfiles and add devcontainer</input>\n<output>\nchore: add devcontainer configuration\n\nRemove legacy Docker templates and documentation.\n</output>\n</example>\n\n<example>\n<input>Updated dependencies</input>\n<output>chore: update dependencies</output>\n</example>\n\n<example>\n<input>Fixed memory leak in websocket</input>\n<output>\nfix: resolve memory leak in websocket handler\n\nConnection pool was not releasing closed connections.\n</output>\n</example>\n\n## Invalid Formats — NEVER Generate These\n\n❌ `Add devcontainer configuration and base image builder script`\n   → Missing type prefix, too long, not imperative\n\n❌ `feat: add new auth system with JWT tokens and refresh logic`\n   → Too long — move details to body\n\n❌ `feat: added login page`\n   → Wrong tense\n\n❌ `Added new feature for users`\n   → Missing type, wrong tense, vague\n\n## Output Rules\n\n1. ALWAYS start with `{type}: `\n2. ALWAYS keep subject under 50 characters\n3. Pick ONE primary change for the subject\n4. Put additional context in the body",
   "commitSage.commit.useCustomInstructions": true,
   "commitSage.ollama.baseUrl": "http://ai-box.lan:11434",
-  "commitSage.ollama.model": "qwen3-coder:30b",
+  "commitSage.ollama.model": "qwen3-next:80b-a3b-instruct-q4_K_M",
   "commitSage.provider.type": "ollama",
-  "commitSage.telemetry.enabled": false,
   "containers.containers.label": "ContainerName",
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js, ${capture}.test.ts",
-    "*.tsx": "${capture}.ts, ${capture}.test.tsx"
+    "*.tsx": "${capture}.ts, ${capture}.test.tsx, ${capture}.module.scss, ${capture}.stories.tsx",
   },
   "files.autoSave": "afterDelay",
   "git.autofetch": true,
@@ -33,7 +32,7 @@
     "**/Gemfile.lock",
     "**/Cargo.lock",
     "**/*.bak",
-    "**/*.backup"
+    "**/*.backup",
   ],
   "settings.cycle": [
     {
@@ -41,12 +40,12 @@
       "overrideWorkspaceSettings": true,
       "values": [
         {
-          "explorer.excludeGitIgnore": true
+          "explorer.excludeGitIgnore": true,
         },
         {
-          "explorer.excludeGitIgnore": false
-        }
-      ]
+          "explorer.excludeGitIgnore": false,
+        },
+      ],
     },
     {
       "id": "toggleDotfiles",
@@ -59,8 +58,8 @@
             "**/.git": true,
             "**/.pnpm-store": true,
             "**/dist": true,
-            "**/node_modules": true
-          }
+            "**/node_modules": true,
+          },
         },
         {
           "files.exclude": {
@@ -68,11 +67,11 @@
             "**/.git": true,
             "**/.pnpm-store": true,
             "**/dist": true,
-            "**/node_modules": true
-          }
-        }
-      ]
-    }
+            "**/node_modules": true,
+          },
+        },
+      ],
+    },
   ],
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.openMode": "doubleClick",
@@ -89,8 +88,8 @@
   "aws.cloudformation.telemetry.enabled": false,
   "yaml.schemas": {
     "file:///home/milos/.vscode-oss/extensions/continue.continue-1.2.11-linux-x64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ]
+      ".continue/**/*.yaml",
+    ],
   },
   "aws.telemetry": false,
   "telemetry.feedback.enabled": false,
@@ -102,11 +101,11 @@
     "editor.defaultColorDecorators": "never",
     "gitlens.codeLens.symbolScopes": ["!Module"],
     "editor.formatOnType": true,
-    "editor.wordBasedSuggestions": "off"
+    "editor.wordBasedSuggestions": "off",
   },
   "makefile.configureOnOpen": true,
   "accessibility.signals.lineHasInlineSuggestion": {
-    "sound": "off"
+    "sound": "off",
   },
   "editor.accessibilitySupport": "on",
   "accessibility.signalOptions.volume": 0,
@@ -116,5 +115,27 @@
   "workbench.colorTheme": "Darcula Theme (JetBrains Port)",
   "git.allowForcePush": true,
   "claudeCode.useTerminal": true,
-  "claude-code.useTerminal": true
+  "claude-code.selectedModel": "haiku",
+  "vitest.maximumConfigs": 50,
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true,
+  },
+  "commitSage.apiRequestTimeout": -1,
+  "commitSage.telemetry.enabled": false,
+  "commitSage.commit.commitFormat": "semantic",
+  "commitSage.openai.baseUrl": "https://api.openai.com/v1",
+  "gitCommitGenie.commitLanguage": "en",
+  "gitCommitGenie.repositoryAnalysis.model": "claude-opus-4-20250514",
+  "predicteCommit.useLocal": true,
+  "predicteCommit.localBaseUrl": "http://ai-box.lan:11434/v1",
+  "predicteCommit.localModel": "glm-4.7-flash:q4_K_M",
+  "predicteCommit.models": [
+    "glm-4.7-flash:Q8_0",
+    "glm-4.7-flash:q4_K_M",
+    "gpt-oss:120b",
+    "qwen3:32b",
+    "qwen3-coder:30b",
+    "gpt-oss:20b",
+  ],
+  "git.blame.editorDecoration.enabled": true,
 }
