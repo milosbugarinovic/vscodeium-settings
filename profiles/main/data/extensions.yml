@@ -1,25 +1,21 @@
 disabled:
-  - id: antfu.vite
-    uuid: b22eea9f-5a30-43a2-8a59-3d3707869cf8
+  - id: 3timeslazy.vscodium-devpodcontainers
+    uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
   - id: DavidLGoldberg.jumpy2
     uuid: b199d60e-2c65-4f9c-807a-5dc7fa9de504
-  - id: dbaeumer.vscode-eslint
-    uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: littleCareless.dish-ai-commit
     uuid: 00000000-0000-0000-0000-000000000000
   - id: oven.bun-vscode
     uuid: 2c58c6a8-c23c-4913-899e-17c90b15274e
-  - id: pflannery.vscode-versionlens
-    uuid: 07fc4a0a-11fc-4121-ba9a-f0d534c729d8
 enabled:
-  - id: 3timeslazy.vscodium-devpodcontainers
-    uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: Abdullah-Dev.pkg-version
     uuid: 60b3935b-d661-4088-9c82-8f646f49879c
   - id: alefragnani.Bookmarks
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
+  - id: antfu.vite
+    uuid: b22eea9f-5a30-43a2-8a59-3d3707869cf8
   - id: Anthropic.claude-code
     uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
   - id: batyan-soft.fast-tasks
@@ -28,8 +24,12 @@ enabled:
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
   - id: Continue.continue
     uuid: c8d442ab-9ee3-4891-a5b0-994f14f54c94
+  - id: dbaeumer.vscode-eslint
+    uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: detachhead.basedpyright
     uuid: 249aa903-c0c5-4eb3-9deb-06895c663b8b
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
   - id: EricSia.pythonsnippets3

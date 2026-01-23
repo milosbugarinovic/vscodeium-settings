@@ -88,8 +88,8 @@
   "aws.cloudformation.telemetry.enabled": false,
   "yaml.schemas": {
     "file:///home/milos/.vscode-oss/extensions/continue.continue-1.2.11-linux-x64/config-yaml-schema.json": [
-      ".continue/**/*.yaml",
-    ],
+      ".continue/**/*.yaml"
+    ]
   },
   "aws.telemetry": false,
   "telemetry.feedback.enabled": false,
@@ -138,4 +138,10 @@
     "gpt-oss:20b",
   ],
   "git.blame.editorDecoration.enabled": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.pnpm-store": true,
+    "**/node_modules": true
+  },
 }
