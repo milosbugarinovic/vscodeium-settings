@@ -3,6 +3,8 @@ disabled:
     uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
   - id: DavidLGoldberg.jumpy2
     uuid: b199d60e-2c65-4f9c-807a-5dc7fa9de504
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: littleCareless.dish-ai-commit
     uuid: 00000000-0000-0000-0000-000000000000
   - id: oven.bun-vscode
@@ -28,8 +30,6 @@ enabled:
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: detachhead.basedpyright
     uuid: 249aa903-c0c5-4eb3-9deb-06895c663b8b
-  - id: eamodio.gitlens
-    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
   - id: EricSia.pythonsnippets3
