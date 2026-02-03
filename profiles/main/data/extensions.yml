@@ -82,6 +82,8 @@ enabled:
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: SanjulaGanepola.github-local-actions
     uuid: 4a2d7bb5-c18c-468d-8090-606f0568d535
+  - id: shd101wyy.markdown-preview-enhanced
+    uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: sst-dev.opencode
     uuid: 90e5fe3f-5625-4338-82e4-0ca57e7d0af9
   - id: streetsidesoftware.code-spell-checker

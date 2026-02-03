@@ -146,4 +146,6 @@
     "**/node_modules": true
   },
   "commitSage.openai.model": "GLM-4.7-FlashX",
+  "markdown-preview-enhanced.plantumlJarPath": "/home/milos/Nextcloud/box/linux/software/plantuml/plantuml-1.2026.1.jar",
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
 }
